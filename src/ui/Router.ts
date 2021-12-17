@@ -66,7 +66,7 @@ export interface IRouter {
   toJob(): void;
   toMilestones(): void;
   toResleeves(): void;
-  toScriptEditor(filename?: string, code?: string): void;
+  toScriptEditor(filename?: string, code?: string, options?: { vim: boolean }): void;
   toSleeves(): void;
   toStockMarket(): void;
   toTerminal(): void;
